@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('train.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter:blur(5px);
+}
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 70px;
+    margin-right: 10px;
+    background: transparent;
+    border-color: black;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 30px;
+    color: black; /* Matches the color in the image */
+    text-align:center;
+  }
+  
+  .logo p {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+  
+  
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.terms input {
+    margin-right: 5px;
+}
+
+.signup-btn {
+    background-color: #f0c040;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.signup-btn:hover {
+    background-color: #e0a030;
+}
+
+.or-separator {
+    position: relative;
+    margin: 20px 0;
+}
+
+.or-separator span {
+    background-color:none;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.or-separator:before {
+    content: ' ';
+    display: block;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-login img {
+    width: 20px;
+    height: 20px;
+}
+
+.google-signin {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.apple-signin {
+    background-color: #e0d6d6;
+     background-size: cover;
+    background-image: transparent;
+    
+    border: 1px solid #000;
+}
+
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

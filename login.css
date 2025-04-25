@@ -1,0 +1,144 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./train.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.welcome-message h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.welcome-message p {
+    color: #666;
+}
+
+.form-container input[type="email"], .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.signup-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.terms label {
+    margin-left: 5px; /* Spacing between checkbox and label text */
+    font-size: 14px;
+}
+
+.or-separator {
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.or-separator span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+}
+
+.or-separator::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.social-login button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

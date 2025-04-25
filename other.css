@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('train.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    backdrop-filter: blur(7px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Optional, if you want to darken the image slightly */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.header .logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.subheader {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 50px 50px;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.service-icon {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.service-label {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
